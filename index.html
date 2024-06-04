@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="mdb/css/mdb.min.css" />
+    <link rel="stylesheet" href="icons/css/all.min.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JS -->
+    <script src="mdb/js/mdb.min.js" defer></script>
+    <script src="icons/js/all.js" defer></script>
+    <script src="js/index.js" defer></script>
+    
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+    <header id="index">
+        <div class="header-content container">
+            <div class="site-title">
+                <h1><span>K</span>EII</h1>
+            </div>
+            <nav class="navbar-for-big-screen">
+                <ul>
+                    <li><a href="#index" class="">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li class="contact-list">
+                        <a href="#contact" class="contact-btn">
+                            <i class="fa-regular fa-message fa-fw me-2"></i>Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="navbar">
+                <ul id="sidemenu">
+                    <li><a href="#index" class="">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                    <li class="contact-list">
+                        <a href="#contact" class="contact-btn">
+                            <i class="fa-regular fa-message fa-fw me-2"></i>Contact Me
+                        </a>
+                    </li>
+                </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Home -->
+        <div class="col home">
+            <div class="introduction">
+                <div class="intro-text">
+                    <h4 class="text">Hi,</h4>
+                    <h3 class="text-name">I'm <span>Kel</span></h3>
+                    <h3 class="text-job">Computer Science Student</h3>
+                    <p class="intro-content">I am an aspiring Software Engineer</p>
+                </div>
+                <div class="intro-img">
+                    <img src="images/profile.png" alt="just a pic" />
+                </div>
+            </div>
+            <div class="intro-arrow">
+                <p>Scroll</p>
+                <span>
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </span>
+            </div>
+            
+        </div>
+
+        <!-- About me -->
+        <div class="col about" id="about">
+            <h2>About Me</h2>
+            <div class="about-section">
+                <div class="about-image bg-image hover-zoom">
+                    <img src="images/about-img.jpg" alt="">
+                </div>
+                <div class="about-content">
+                    <div class="about-intro">
+                        <div class="about-intro-p">
+                            <h2>About Me</h2>
+                            <p>
+                                Hello! I'm Micheal Adrian Gener, an aspiring Software Developer based in Laguna. 
+                                With a fervent love for programming, I'm dedicated to learn and experience new things about computer. 
+                                This website is my platform to share insights, experiences, and inspiration. Join me on this 
+                                journey of exploration and growth!
+                            </p>
+                        </div>
+                        <div class="about-intro-buttons">
+                            <button class="btn active-btn" id="info-btn">Info</button>
+                            <button class="btn" id="skill-btn">Skills</button>
+                            <button class= " btn" id="exp-btn">Experience</button>
+                            <button class="btn" id="educ-btn">Education</button>
+                        </div>
+                        <div class="about-col info tab-links active">
+                            <h6>Basic Information</h6>
+                            <p>Name: Micheal Adrian Gener</p>
+                            <p>Age: 20</p>
+                            <p>Birthday: May 25, 2003</p>
+                            <p>Address: Brgy.3 Calamba Laguna</p>
+                            <p>Year: 3rd Year College Student</p>
+                            <p>Course: Bachelor Science in Computer Science</p>
+                            <br>
+                            <h6>Parents</h6>
+                            <p>Father: Ulyses H. Gener</p>
+                            <p>Mother: Jessie Ann V. Gener</p>
+                            <br>
+                            <h6>Siblings</h6>
+                            <p>Ulyses V. Gener</p>
+                            <p>Princess Ann V. Gener</p>
+                            <br>
+                        </div>
+                        <div class="about-col skills tab-links">
+                            <h6>Web Development</h6>
+                            <p>html, css, JavaScript, php</p>
+                            <br>
+                            <h6>Machine Learning</h6>
+                            <p>Python</p>
+                            <br>
+                            <h6>App Development</h6>
+                            <p>Dart, Flutter</p>
+                            <br>
+                        </div>
+                        <div class="about-col experience tab-links">
+                            <h6>!!!</h6>
+                            <p>No Experience yet</p>
+                            <br>
+                        </div>
+                        <div class="about-col experience tab-links">
+                            <h6>!!!</h6>
+                            <p>No Experience yet</p>
+                            <br>
+                        </div>
+                        <div class="about-col education tab-links">
+                            <h6>2009-2015 (Elementary School)</h6>
+                            <p>Tambo Balagbag Elementary School</p>
+                            <br>
+                            <h6>2015-2019 (Junior High School)</h6>
+                            <p>Saint John Colleges</p>
+                            <br>
+                            <h6>2019-2021 (Senior High School)</h6>
+                            <p>STI College Calamba</p>
+                            <br>
+                            <h6>2021-Present (College)</h6>
+                            <p>City College of Calamba</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div class=" col portfolio" id="portfolio">
+            <h2>My Work</h2>
+            <div class="portfolio-section">
+                <div class="work-image work-1">
+                    <div class="bg-image hover-zoom">
+                        <img src="images/java_lib_system.png" alt="">
+                    </div>
+                    <div class="work-details">
+                        <p class="image-title">Java Library System Project</p>
+                        <p>
+                            The System allows you to organize, issue and return the books. 
+                            It helps in providing assistance in finding information.
+                        </p>
+                    </div>
+                </div>
+                <div class="work-image work-2">
+                    <div class="bg-image hover-zoom">
+                        <img src="images/website_enrollment_system.png" alt="">
+                    </div>
+                    <div class="work-details">
+                        <p class="image-title">Enrollment System Website</p>
+                        <p>
+                            The System allows you to automate the traditional way of enrollment system. 
+                            It helps in providing assistance in finding information.
+                        </p>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div class=" ps-1">
+                <div class="work-image work-3">
+                    <div class="bg-image hover-zoom">
+                        <img src="images/apple_gimp.png" alt="">
+                    </div>
+                    <div class="work-details">
+                        <p class="image-title">Apple Gimp Project</p>
+                    </div>
+                </div>
+                <div class="work-image work-4">
+                    <div class="bg-image hover-zoom">
+                        <img src="images/activity 2_gimp.png" alt="">
+                    </div>
+                    <div class="work-details">
+                        <p class="image-title">Traditional Gesture</p>
+                    </div>
+                </div>
+                <div class="work-image work-5">
+                    <div class="bg-image hover-zoom">
+                        <img src="images/luffy_exaggeration.png" alt="">
+                    </div>
+                    <div class="work-details">
+                        <p class="image-title">Exaggeration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="col contact" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-section">
+                <ul class="contacts">
+                    <li><i class="fa-solid fa-phone fa-fw me-2"></i>: 0961-131-4798</li>
+                    <li><i class="fa-solid fa-envelope fa-fw me-2"></i>: adriangener@gmail.com</li>
+                    <li><i class="fa-solid fa-envelope fa-fw me-2"></i>: mvgener@ccc.edu.ph</li>
+                    <li class="social-media">
+                        <a href="https://www.facebook.com/michealadrian.gener" class="facebook" target="_blank"
+                            ><i class="fa-brands fa-facebook fa-fw"></i
+                        ></a>
+                        <a href="https://twitter.com/adrngnr" class="twitter" target="_blank"
+                            ><i class="fa-brands fa-square-x-twitter fa-fw"></i
+                        ></a>
+                        <a href="https://www.instagram.com/kkell__/" class="instagram" target="_blank"
+                            ><i class="fa-brands fa-square-instagram fa-fw"></i
+                        ></a>
+                        <a href="https://github.com/KElGener" class="github" target="_blank"
+                            ><i class="fa-brands fa-square-github fa-fw"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="files/cv.pdf" class="download-btn" download="CV.pdf">
+                            <i class="fa-solid fa-file-arrow-down fa-fw me-2"></i>Download CV
+                        </a>
+                    </li>
+                </ul>
+                <div class="send-message">
+                    <form action="" method="post">
+                        <div>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required/>
+                        </div>
+                        <div>
+                            <input type="text" id="email" name="email" placeholder="Your Email" required />
+                        </div>
+                        <div>
+                            <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+                        </div>
+                        <input type="submit" class="download-btn" value="Submit" name="save">   
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-head">
+            <p>&copy; Copyright 2024 <span>KEII</span></p>
+        </div>
+    </footer>
+  </body>
+</html>

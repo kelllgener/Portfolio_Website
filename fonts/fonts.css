@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Lora';
+    src: url('Lora-MediumItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Raleway l';
+    src: url('Raleway-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('JetBrainsMono-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SixtyFour';
+    src: url('Sixtyfour-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProtestRevolution';
+    src: url('ProtestRevolution-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cornerstone';
+    src: url('Cornerstone.ttf') format('truetype');
+}
